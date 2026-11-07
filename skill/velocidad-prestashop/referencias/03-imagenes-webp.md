@@ -28,6 +28,9 @@ Hay tres frentes y conviene atacarlos en este orden.
 El tema *classic* de PrestaShop 8 ya usa `<picture>` con `sources.webp`. **Muchos temas de terceros no**, y entonces
 el WebP del núcleo existe en disco pero nadie lo pide.
 
+El paso a paso completo (diagnóstico, todas las plantillas, scripts de comprobación) está en el skill
+`plantilla-webp-prestashop` de este mismo repositorio. Aquí, el resumen.
+
 ### El parcial que se ha usado (anónimo)
 
 `plantillas/webp-si-existe.tpl` deja en una variable la URL del WebP de una foto de producto **solo si el fichero
