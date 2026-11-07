@@ -16,6 +16,12 @@ Cada una costó horas en una tienda real. Leer antes de empezar.
   a sRGB.
 - **Orientación EXIF sin aplicar:** la foto sale girada.
 - **Una imagen enlazada que ya daba 404** no es un fallo del cambio: comparar con antes, no exigir «todo 200».
+- **nginx pierde `$1` al evaluar un `map` con expresión regular**: `try_files $uri$webp $1$webp` busca «.webp» a
+  secas. Para quitar la extensión, captura con nombre: `location ~* ^(?<base>.+)\.(png|jpe?g)$`.
+- **Dos nombres de WebP**: `banner.png.webp` (al lado, con la extensión) y `banner.webp` (cambiando la extensión). La
+  configuración del servidor tiene que buscar el que crea la herramienta que se use, o los dos.
+- **Un servidor que no puede pedirse a sí mismo por HTTPS** (cortafuegos o nginx escuchando solo en la IP pública): las
+  tareas «por URL» de los módulos no funcionan desde su propio cron; se lanzan por línea de órdenes.
 
 ## Plantillas y cachés
 
