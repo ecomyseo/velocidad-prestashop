@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="ecom_webpauto" source-language="en-US" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="67eb96d2b6e8a03f52149b7a2f098695" resname="Automatic WebP for banners and sliders">
+        <source>Automatic WebP for banners and sliders</source>
+        <target>WebP automático para banners y sliders</target>
+      </trans-unit>
+      <trans-unit id="9b4e0fc15f2da0e981cb0400cc18935a" resname="Creates the WebP copy of every banner, slider and image that is uploaded or changed, and serves it to the browsers that accept it.">
+        <source>Creates the WebP copy of every banner, slider and image that is uploaded or changed, and serves it to the browsers that accept it.</source>
+        <target>Crea la copia WebP de cada banner, slider e imagen que se sube o se cambia, y la entrega a los navegadores que la aceptan.</target>
+      </trans-unit>
+      <trans-unit id="d7a9a3cd97250c308afbba3fdddd5a0a" resname="WebP created: %creados%, remade because their image changed: %rehechos%, left without WebP because it would weigh more: %sinventaja%, errors: %errores%.">
+        <source>WebP created: %creados%, remade because their image changed: %rehechos%, left without WebP because it would weigh more: %sinventaja%, errors: %errores%.</source>
+        <target>WebP creados: %creados%; rehechos porque su imagen cambió: %rehechos%; sin WebP porque pesaría más: %sinventaja%; errores: %errores%.</target>
+      </trans-unit>
+      <trans-unit id="b316002732eab1e6448339a7f5023576" resname="Some are still missing: press the button again.">
+        <source>Some are still missing: press the button again.</source>
+        <target>Aún faltan algunos: pulsa otra vez el botón.</target>
+      </trans-unit>
+      <trans-unit id="44ec7ae22cd4c574d356405cb1499b1c" resname="The .htaccess file could not be written: the server will not deliver the WebP files.">
+        <source>The .htaccess file could not be written: the server will not deliver the WebP files.</source>
+        <target>No se ha podido escribir el .htaccess: el servidor no entregará los WebP.</target>
+      </trans-unit>
+      <trans-unit id="9a7e58ee13cb727cb7c4acc68f4cafe5" resname="Settings saved.">
+        <source>Settings saved.</source>
+        <target>Configuración guardada.</target>
+      </trans-unit>
+      <trans-unit id="93cba07454f06a4a960172bbd6e2a435" resname="Yes">
+        <source>Yes</source>
+        <target>Sí</target>
+      </trans-unit>
+      <trans-unit id="bafd7322c6e97d25b6299b5d6fe8920b" resname="No">
+        <source>No</source>
+        <target>No</target>
+      </trans-unit>
+      <trans-unit id="f4f70727dc34561dfde1a3c529b6205c" resname="Settings">
+        <source>Settings</source>
+        <target>Configuración</target>
+      </trans-unit>
+      <trans-unit id="0db377921f4ce762c62526131097968f" resname="General">
+        <source>General</source>
+        <target>General</target>
+      </trans-unit>
+      <trans-unit id="60c7502b5c40479908aed919a94c1786" resname="Folders">
+        <source>Folders</source>
+        <target>Carpetas</target>
+      </trans-unit>
+      <trans-unit id="cfb1aaf7cc58901837f3ae25cee88285" resname="Create WebP automatically">
+        <source>Create WebP automatically</source>
+        <target>Crear los WebP automáticamente</target>
+      </trans-unit>
+      <trans-unit id="d6da817473f11e86754812e36c4d8480" resname="When an image is uploaded or changed in the back office, its WebP copy is created.">
+        <source>When an image is uploaded or changed in the back office, its WebP copy is created.</source>
+        <target>Cuando se sube o se cambia una imagen en el back-office, se crea su copia WebP.</target>
+      </trans-unit>
+      <trans-unit id="881ff78526fe8bdad3422c296240f2ca" resname="Deliver the WebP to browsers that accept it">
+        <source>Deliver the WebP to browsers that accept it</source>
+        <target>Entregar el WebP a los navegadores que lo aceptan</target>
+      </trans-unit>
+      <trans-unit id="e7ca79f6e8719f0f6c30f077faac4dc7" resname="Adds a rule to the .htaccess file: the page keeps asking for the JPG or PNG and the server sends the WebP.">
+        <source>Adds a rule to the .htaccess file: the page keeps asking for the JPG or PNG and the server sends the WebP.</source>
+        <target>Añade una regla al .htaccess: la página sigue pidiendo el JPG o el PNG y el servidor envía el WebP.</target>
+      </trans-unit>
+      <trans-unit id="571094bb27864b600d8e6b561a137a55" resname="Quality">
+        <source>Quality</source>
+        <target>Calidad</target>
+      </trans-unit>
+      <trans-unit id="539aec4ae32a8932c502c05ad8a5bf10" resname="From 40 to 100. 82 is a good balance.">
+        <source>From 40 to 100. 82 is a good balance.</source>
+        <target>De 40 a 100. Con 82 se consigue un buen equilibrio.</target>
+      </trans-unit>
+      <trans-unit id="e8e5cecb061ab56b71b334088927be8f" resname="Folders to watch">
+        <source>Folders to watch</source>
+        <target>Carpetas vigiladas</target>
+      </trans-unit>
+      <trans-unit id="f40d54cdc87599642d9944953190f9bb" resname="One per line, from the shop root. Ending in /* means only that folder, without subfolders.">
+        <source>One per line, from the shop root. Ending in /* means only that folder, without subfolders.</source>
+        <target>Una por línea, desde la raíz de la tienda. Si acaba en /*, solo esa carpeta, sin subcarpetas.</target>
+      </trans-unit>
+      <trans-unit id="1a9823cb9ce65bad046a67e210590c9a" resname="Also product photos">
+        <source>Also product photos</source>
+        <target>También las fotos de producto</target>
+      </trans-unit>
+      <trans-unit id="260f3c1702f4144d49dda13a34e0ebcf" resname="Only for shops where PrestaShop does not create them (1.7, or 8 and 9 without the WebP format active).">
+        <source>Only for shops where PrestaShop does not create them (1.7, or 8 and 9 without the WebP format active).</source>
+        <target>Solo en tiendas donde PrestaShop no las crea (1.7, o 8 y 9 sin el formato WebP activo).</target>
+      </trans-unit>
+      <trans-unit id="c9cc8cce247e49bae79f15173ce97354" resname="Save">
+        <source>Save</source>
+        <target>Guardar</target>
+      </trans-unit>
+      <trans-unit id="7212fa6d97d6fa8a284cbcd444eb3d16" resname="New version available">
+        <source>New version available</source>
+        <target>Nueva versión disponible</target>
+      </trans-unit>
+      <trans-unit id="0719fb32d8845dd6bb7121e83e67045d" resname="There is a newer version of this module. Contact support to update it.">
+        <source>There is a newer version of this module. Contact support to update it.</source>
+        <target>Hay una versión más reciente de este módulo. Contacta con soporte para actualizarlo.</target>
+      </trans-unit>
+      <trans-unit id="b16268af0e3c96996882959b758724a6" resname="WebP status">
+        <source>WebP status</source>
+        <target>Estado de los WebP</target>
+      </trans-unit>
+      <trans-unit id="b0bff8b0ce01a6fc831f7e97b7ef10c1" resname="The settings are common to all shops: the image files are shared.">
+        <source>The settings are common to all shops: the image files are shared.</source>
+        <target>La configuración es común a todas las tiendas: los ficheros de imagen son compartidos.</target>
+      </trans-unit>
+      <trans-unit id="a5897e5b0c327a781976dbc2831baf20" resname="The .htaccess rule is missing and could not be written: browsers keep receiving JPG and PNG.">
+        <source>The .htaccess rule is missing and could not be written: browsers keep receiving JPG and PNG.</source>
+        <target>Falta la regla del .htaccess y no se ha podido escribir: los navegadores siguen recibiendo JPG y PNG.</target>
+      </trans-unit>
+      <trans-unit id="05afecc5b268c5a23160c8142895bf16" resname="The rule is in place but the server does not deliver the WebP (it may be nginx serving the images directly).">
+        <source>The rule is in place but the server does not deliver the WebP (it may be nginx serving the images directly).</source>
+        <target>La regla está puesta, pero el servidor no entrega el WebP (puede que nginx sirva las imágenes directamente).</target>
+      </trans-unit>
+      <trans-unit id="b0f2b97dc5d2b76b26e040408bb1d8af" resname="Folder">
+        <source>Folder</source>
+        <target>Carpeta</target>
+      </trans-unit>
+      <trans-unit id="fff0d600f8a0b5e19e88bfb821dd1157" resname="Images">
+        <source>Images</source>
+        <target>Imágenes</target>
+      </trans-unit>
+      <trans-unit id="eb8e6552eb59410e5de102ca8f9c69d7" resname="With WebP">
+        <source>With WebP</source>
+        <target>Con WebP</target>
+      </trans-unit>
+      <trans-unit id="ba4dd08b9e0489719b3971ac633b3f9a" resname="No gain">
+        <source>No gain</source>
+        <target>Sin ventaja</target>
+      </trans-unit>
+      <trans-unit id="2aee0be2678ee90fd327cc186826438e" resname="Missing">
+        <source>Missing</source>
+        <target>Faltan</target>
+      </trans-unit>
+      <trans-unit id="00f511f1e040886e307afdf907e24d2d" resname="Weight: image / WebP">
+        <source>Weight: image / WebP</source>
+        <target>Peso: imagen / WebP</target>
+      </trans-unit>
+      <trans-unit id="9416a531e05cf18f1c26b97263e3c96b" resname="does not exist">
+        <source>does not exist</source>
+        <target>no existe</target>
+      </trans-unit>
+      <trans-unit id="834827087a2c6c1d1703946dfbfa79a9" resname="Create the missing WebP now">
+        <source>Create the missing WebP now</source>
+        <target>Crear ahora los WebP que faltan</target>
+      </trans-unit>
+      <trans-unit id="4e236d6212c7fa1b7266a13745a5f525" resname="Last automatic check:">
+        <source>Last automatic check:</source>
+        <target>Última revisión automática:</target>
+      </trans-unit>
+      <trans-unit id="c7561db7a418dd39b2201dfe110ab4a4" resname="never">
+        <source>never</source>
+        <target>nunca</target>
+      </trans-unit>
+      <trans-unit id="d9208ca459ed0b16ff86519f047a99f7" resname="The server delivers WebP:">
+        <source>The server delivers WebP:</source>
+        <target>El servidor entrega WebP:</target>
+      </trans-unit>
+      <trans-unit id="a6105c0a611b41b08f1209506350279e" resname="yes">
+        <source>yes</source>
+        <target>sí</target>
+      </trans-unit>
+      <trans-unit id="7fa3b767c460b54a2be4d49030b349c7" resname="no">
+        <source>no</source>
+        <target>no</target>
+      </trans-unit>
+      <trans-unit id="037e06cd2487d5c0304c095c7fb917b2" resname="Help: how it works">
+        <source>Help: how it works</source>
+        <target>Ayuda: cómo funciona</target>
+      </trans-unit>
+      <trans-unit id="b722a9c9b753e197ee93fe5f7d63ffc4" resname="When an image is uploaded or changed in the back office (sliders, banners, CMS pages, categories, brands...), its WebP copy is created at the end of that same request, next to the original and with the same name.">
+        <source>When an image is uploaded or changed in the back office (sliders, banners, CMS pages, categories, brands...), its WebP copy is created at the end of that same request, next to the original and with the same name.</source>
+        <target>Cuando se sube o se cambia una imagen en el back-office (sliders, banners, páginas CMS, categorías, marcas...), su copia WebP se crea al terminar esa misma petición, junto a la original y con el mismo nombre.</target>
+      </trans-unit>
+      <trans-unit id="af453f3a8f274c7407afbbacd72b1965" resname="Product photos are not touched: PrestaShop 8 and 9 create them when the WebP format is active in Design &gt; Image settings.">
+        <source>Product photos are not touched: PrestaShop 8 and 9 create them when the WebP format is active in Design &gt; Image settings.</source>
+        <target>Las fotos de producto no se tocan: PrestaShop 8 y 9 las crea cuando el formato WebP está activo en Diseño &gt; Ajustes de imágenes.</target>
+      </trans-unit>
+      <trans-unit id="497aed1a7cc0842d8bd704756ed99765" resname="The originals are never modified or deleted. If an image changes, its WebP is created again.">
+        <source>The originals are never modified or deleted. If an image changes, its WebP is created again.</source>
+        <target>Las originales nunca se modifican ni se borran. Si una imagen cambia, su WebP se vuelve a crear.</target>
+      </trans-unit>
+      <trans-unit id="6739965330b5c4c6f203636f443f3c0d" resname="No gain: its WebP would weigh more than the image, or there is another image with the same name (logo.jpg and logo.png). Those keep being served as they are.">
+        <source>No gain: its WebP would weigh more than the image, or there is another image with the same name (logo.jpg and logo.png). Those keep being served as they are.</source>
+        <target>Sin ventaja: su WebP pesaría más que la imagen, o hay otra imagen con el mismo nombre (logo.jpg y logo.png). Esas se siguen entregando tal cual.</target>
+      </trans-unit>
+      <trans-unit id="8f0678b57f90d22086ab531c44d7041d" resname="The page keeps asking for the JPG or PNG; the .htaccess rule sends the WebP only to browsers that accept it, so no template has to be changed.">
+        <source>The page keeps asking for the JPG or PNG; the .htaccess rule sends the WebP only to browsers that accept it, so no template has to be changed.</source>
+        <target>La página sigue pidiendo el JPG o el PNG; la regla del .htaccess envía el WebP solo a los navegadores que lo aceptan, así que no hay que cambiar ninguna plantilla.</target>
+      </trans-unit>
+      <trans-unit id="c31e47125f974a6facf0ef50ec209ce3" resname="For images uploaded by FTP or by imports, you can call this address from the server cron:">
+        <source>For images uploaded by FTP or by imports, you can call this address from the server cron:</source>
+        <target>Para las imágenes subidas por FTP o por importaciones, puedes llamar a esta dirección desde el cron del servidor:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

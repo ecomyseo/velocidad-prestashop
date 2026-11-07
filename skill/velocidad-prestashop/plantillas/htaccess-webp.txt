@@ -1,0 +1,23 @@
+# Ecom Experts - Licencia AFL-3.0
+# Entregar banner.png.webp en la URL de banner.png al navegador que acepta WebP. Solo funciona si es Apache quien
+# sirve las imágenes (si nginx va delante y las sirve él, usar nginx-webp.conf).
+# Va al principio del .htaccess de la raíz, ANTES de las reglas de PrestaShop (y fuera de su bloque
+# «~~start~~ / ~~end~~», que PrestaShop reescribe al regenerar el .htaccess).
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP_ACCEPT} image/webp
+    RewriteCond %{REQUEST_URI} \.(jpe?g|png)$ [NC]
+    RewriteCond %{REQUEST_FILENAME}.webp -f
+    RewriteRule ^(.+)$ $1.webp [T=image/webp,E=webp_servido:1,L]
+</IfModule>
+<IfModule mod_headers.c>
+    <FilesMatch "\.(jpe?g|png)$">
+        Header append Vary Accept
+    </FilesMatch>
+    Header append Vary Accept env=REDIRECT_webp_servido
+</IfModule>
+AddType image/webp .webp
+
+# Probar:  curl -sI -H "Accept: image/webp" https://DOMINIO/img/cms/banner.png   -> Content-Type: image/webp
+#          curl -sI https://DOMINIO/img/cms/banner.png                          -> Content-Type: image/png

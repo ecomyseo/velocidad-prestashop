@@ -1,0 +1,38 @@
+# Ecom Experts - Licencia AFL-3.0
+# Caché del navegador para los estáticos, SIN dar caché a las páginas, al JSON ni al XML.
+# Requiere mod_expires cargado (apache2ctl -M | grep expires). Si el módulo no está, este bloque no hace nada.
+# Antes de encender mod_expires en un servidor, buscar ExpiresDefault en TODOS sus .htaccess:
+#   grep -rn "ExpiresDefault" /var/www/vhosts/*/httpdocs/.htaccess /home/*/web/*/public_html/.htaccess
+# y añadir en cada uno las cuatro líneas de «nunca».
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    # nunca: lo que cambia con cada visita (páginas, filtros, carrito por AJAX, búsquedas, sitemaps)
+    ExpiresByType text/html "access plus 0 seconds"
+    ExpiresByType application/json "access plus 0 seconds"
+    ExpiresByType application/xml "access plus 0 seconds"
+    ExpiresByType text/xml "access plus 0 seconds"
+    # hojas de estilo y scripts
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType text/javascript "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+    ExpiresByType application/x-javascript "access plus 1 week"
+    # imágenes
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/webp "access plus 1 month"
+    ExpiresByType image/avif "access plus 1 month"
+    ExpiresByType image/svg+xml "access plus 1 month"
+    ExpiresByType image/x-icon "access plus 1 month"
+    ExpiresByType image/vnd.microsoft.icon "access plus 1 month"
+    # fuentes
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType font/woff "access plus 1 year"
+    ExpiresByType font/ttf "access plus 1 year"
+    ExpiresByType application/font-woff "access plus 1 year"
+    ExpiresByType application/font-woff2 "access plus 1 year"
+    ExpiresByType application/vnd.ms-fontobject "access plus 1 year"
+</IfModule>
+
+# Comprobar después, con scripts/revisar_cache.py: estáticos con su tiempo y «página HTML: no se guarda».

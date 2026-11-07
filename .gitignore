@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+medida-*.json
+webp-registro.json
+webp-registro.json.copias/
